@@ -1,8 +1,35 @@
 body{
+  position: relative;
     font-size: 16px;
     background-color: white;
     color: black;
     font-family: 'Noto Sans JP', sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+
+div.gotop{
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 8px;
+  width: fit-content;
+  height: fit-content;
+  font-size: 14px;
+}
+
+.gotop a{
+  text-decoration: none;
+  display: inline-block;
+  box-sizing: border-box;
+  border: black 1px solid;
+  background-color: #dfdedf;
+  color: black;
+}
+
+.gotop a:hover{
+  background-color: black;
+  color: #dfdedf;
 }
 
 h1{
